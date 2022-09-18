@@ -12,9 +12,10 @@
 
 <body>
     
-    <header>
-        <nav >
-            <ul>
+    <header class="header-menu" >
+        
+         <nav >
+            <ul class="lista-menu">
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
@@ -26,52 +27,53 @@
                 <li>
                     <a href="#contatos">Contatos</a>
                 </li>
+
             </ul>
         </nav>
 
     </header>
 
     <main>
-        <section>
-            <div>
-                <img src="img/foto-perfil.jpg">
+        <section class="principal">
+            <div class="subcontainer-principal container">
+                <div>
+                <img class="foto-perfil" src="img/foto-perfil.jpg">
             </div>
 
             <div>
-                <h1> Renata Alves</h1>
-                <h2> Desenvolvedora Front-End</h2>
+                <h1 class="nome-completo"> Renata Alves</h1>
+                <h2 class="profissao"> Desenvolvedora Front-End</h2>
             </div>
-
-            <div>
-                <p>
+            <div class="texto-sobre">
+            
                     Renata Alves, desenvolvedora Front-End (especializada nas linguagem HTML, CSS, Javascript)
                     em processo de transição de carreira. 
                     Atualmento CEO da marca de moda Agênero RECUSA. Trabalho no segmento da moda há 8 anos,
                     durante esse periodo adquiri diversas softskils. Tenho uma formação tecnica em produção de vestuário
                     e sou graduada em Marketing.
-                </p>
-
-            </div>
+       </div>
+        </div>
         </section>
 
-        <section id="formacao">
-            <div>
-                Formação
-            </div>
-            <div>
+        <section class= "formacao" id="formacao">
+            <div class="container section-lista">
+                <div>
+               <h3 class="topico-principal">Formação </h3>
+            </div> 
+            <div class="lista-item">
                 <ul>
                     <li>
-                        <p>Ciclo Formativo Preta Lab</p>
+                        <p class="lista-titulo">Ciclo Formativo Preta Lab</p>
                         <a href="https://www.pretalab.com/formacao" target="_blank">Pretalab / Olabi</a>
-                        <p>
+                        <p class="lista-descricao">
                             Formação tecnica em desenvolvedora Front-End, nas liguagem: HTML, CSS e Javascript.
                         </p>
                     </li>
 
                     <li>
-                        <p>Tecnico em produção de Vestuário </p>
+                        <p class="lista-titulo">Tecnico em produção de Vestuário </p>
                         <a href="https://www.pretalab.com/formacao" target="_blank">Senac Rio</a>
-                        <p>
+                        <p class=" lista-descricao">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. 
                             Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
                         </p>
@@ -79,9 +81,9 @@
                     </li>
 
                     <li>
-                        <p>Markeing</p>
+                        <p class="lista-titulo">Markeing</p>
                         <a href="https://www.pretalab.com/formacao" target="_blank">IBMR</a>
-                        <p>
+                        <p class="lista-descricao">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. 
                             Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
                         </p>
@@ -91,25 +93,28 @@
             </div>        
         </section>
 
-        <section id="projetos">
-            <div>
-                Meus projetos
-              </div> 
-              <div>
+        <section class="projetos" id="projetos">
+            <div class="container section-lista">
+                <div>
+                    <h3 class="topico-principal">Meus projetos</h3>
+                </div>
+                <div class="lista-item">
+                                       
+                           
                 <ul>
                     <li>
-                        <p>Calculadora</p>
-                        <a href="#" target="_blank">Calculadora em Javascript</a>
-                        <p>
+                        <p class="lista-titulo">Calculadora em Javascript</p>
+                        <a href="#" target="_blank" class="lista-local"> Link para o projeto</a>
+                        <p class="lista-descricao">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. 
                             Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
                         </p>
                     </li>
     
                     <li>
-                        <p>Projeto pessoal React</p>
-                        <a href="#" target="_blank">Projeto de React</a>
-                        <p>
+                        <p class="lista-titulo">Projeto pessoal React</p>
+                        <a href="#" target="_blank" class=" lista-local">Link para o projeto</a>
+                        <p class="lista-descricao">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. 
                             Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
                         </p>
@@ -121,27 +126,27 @@
         
     </main>
 
-    <footer>
-        <div id="contato">   
-            <ul>
+    <footer class="contatos" id="contatos">
+        <div class="container-footer">   
+            <ul class="lista-footer">
                 <li >
-                    <i class="fas fa-envelope-square"></i> 
-                    <a href="mailto:renataca.alves@gmail.com">renataca.alves@gmail.com</a>
+                    <i class="fas fa-envelope-square estilo-icon"></i> 
+                    <a href="mailto:renataca.alves@gmail.com" target="_blank" class="links">renataca.alves@gmail.com </a>
                 </li>
                    
                 <li>
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/renata-correa-alves-09553b51/" target="_blank">renata-correa-alves-09553b51/</a>
+                    <i class="fab fa-linkedin estilo-icon"></i>
+                    <a href= https://www.linkedin.com/in/renata-correa-alves-09553b51/ target="_blank" class ="links">renata-correa-alves-09553b51/</a>
                 </li>
 
                 <li>
-                    <i class="fab fa-github-square"></i>
-                    <a href="https://github.com/correaalves" target="_blank">correaalves</a>
+                    <i class="fab fa-github-square estilo-icon"></i>
+                    <a href="https://github.com/correaalves" target="_blank" class ="links">correaalves</a>
                 </li>
 
                 <li>
-                    <i class="fab fa-instagram-square"></i>
-                    <a href="https://www.instagram.com/realves.c/" target="_blank">realves.c</a>
+                    <i class="fab fa-instagram-square estilo-icon"></i>
+                    <a href="https://www.instagram.com/realves.c/" target="_blank" class ="links">realves.c</a>
                 </li>
                 
             </ul>
