@@ -24,7 +24,7 @@ li {
     padding-bottom: 32px; 
     padding-top: 32px;
     height: 60px; 
-    background: #BE89CB 
+    background: #d97d52; 
 }
 
 .header-menu nav {
@@ -43,15 +43,15 @@ li {
 }
 
 .lista-menu li>a {
-    color: #FFF; 
+    color: #b4436c; 
     font-size: 18px;
     text-decoration: inherit;
 }
 
 .principal{
-    height: 130vh;
+    height: 110vh;
     display: flex;
-    background-color: #eaeaea;
+    background-color: #f38c0e;
 }
 
 .container {
@@ -74,7 +74,7 @@ li {
 
 .nome-completo {
     font-size: 36px;
-    color: #ff4dbc;
+    color: #053b06;
     font-weight: 700; 
     height: 45px;
 }
@@ -85,16 +85,16 @@ li {
 }
 
 .profissao {
-    color: #C6B5D5;
+    color: #b4436c;
     height: 60px;
 }
 
 .topico-principal {
     font-size: 36px;
-    color: #ff4dbc;
+    color:#053b06 ;
 }
 
-section-lista {
+.section-lista {
     display: flex;
     margin-bottom: 200px;
     flex-direction: column;
@@ -110,20 +110,20 @@ section-lista {
 .lista-titulo {
     margin-bottom: 5px; 
     font-size: 22px;
-    color: #661e4b;
+    color: #b4436c;
     font-weight: 700;
 }
 
 .lista-local {
     font-size: 18px;
-    color: #2F80ED;
+    color: #000000;
 }
 
 .lista-descricao {
     font-size: 18px;
     margin-top: 5px;
     line-height: 20px; 
-    color: #828282;
+    color:#053b06 ;
     font-weight: 300;
 }
 
@@ -134,7 +134,7 @@ section-lista {
 }
 
 .projetos {
-    background-color: #EAEAEA;
+    background-color:#f38c0e;
     display: flex;
     flex-direction: column;
 }
@@ -150,7 +150,7 @@ section-lista {
 }
 
 .contatos {
-    background-color:#BE89CB;;
+    background-color:#d97d52;
     height: 280px;
     width: 100%; 
     display: flex;
@@ -164,11 +164,11 @@ section-lista {
 
 .links {
     text-decoration:none;
-    color: white;
+    color: #b4436c;
 }
 
 .lista-footer li {
-    color: #FFFF;
+    color: #b4436c;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
